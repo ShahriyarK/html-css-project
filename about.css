@@ -1,0 +1,41 @@
+ /*--------------------------------------------------About Section------------------------------------------*/
+ .about{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    column-gap:141px;
+    margin-top:89px;
+}
+.about-text{
+    padding-left:80px;
+    padding-top:21px;
+}
+.about-text button{
+    color:white;
+    font-size:1.25rem;
+    padding:16px 40px;
+    background-color:rgba(13, 137, 202, 1);
+    border:none;
+    display:none;
+}
+.about-image{
+    width:525px;
+    padding-right:80px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    align-self:center;
+}
+.about-text h2{
+    font-size:3rem;
+    font-weight:400;
+    color:#081A2B;
+}
+.about-text p{
+    font-weight:400;
+    color:#081A2B;
+    font-size:1.5rem;
+    line-height:1.445;
+    padding-top:65px;
+    padding-bottom:36px;
+}
+.about-p-mobile--hidden{display:none;}

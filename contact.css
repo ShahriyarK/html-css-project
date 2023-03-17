@@ -1,0 +1,109 @@
+/* ---------------------------------------------------Contact Section CSS--------------------------------------- */
+.contact-form{
+    margin-top:106px;
+    text-align:center;
+}
+.contact-form h2{
+    font-size:3rem;
+    font-weight:400;
+    padding-bottom:27px;
+}
+.contact-form-text{
+    font-size:1.75rem;
+    line-height:1.43;
+    color:rgba(55, 71, 84, 1);
+    font-weight:400;
+    padding-bottom:60px;
+}
+.contact-form-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    column-gap:63.84px;
+    width:100%;
+}
+fieldset{
+    display:flex;
+    flex-direction:column;
+    padding:52px 50px;
+    width:453px;
+    row-gap:45px;
+    border:1px solid rgba(221, 221, 221, 1);
+    border-radius:20px;
+    box-shadow:0px 13px 19px rgba(0,0,0,0.07);
+}
+fieldset h3{
+    font-size:1.25rem;
+    font-weight:600;
+    color:rgba(37, 43, 66, 1);
+}
+fieldset input, textarea{
+    width:100%;
+}
+fieldset input{
+    padding:19px 20px;
+    background-color:rgba(232, 232, 232, 1);
+    border:1px solid rgba(232, 232, 232, 1);
+}
+fieldset input::placeholder{
+    font-size:0.9375rem;
+    font-family:'Jost', sans-serif;
+    font-weight:400;
+    color:rgba(24, 23, 29, 1);
+}
+fieldset textarea{
+    padding:23px 20px;
+    border:1px solid rgba(232, 232, 232, 1);
+    color:rgba(24, 23, 29, 1);
+    font-size:0.9375rem;
+    font-weight:400;
+    background-color:rgba(232, 232, 232, 1);
+}
+fieldset button{
+    width:145px;
+    padding:18px 38px;
+    color:white;
+    background-color:rgba(13, 137, 202, 1);
+    font-size:1.25rem;
+    font-weight:400;
+    border:none;
+}
+.contact-img-container{
+    width:670px;
+    display:flex;
+    flex-direction:column;
+    padding-top:28.58px;
+}
+#map-img{
+    width:516px;
+    height:323.19px;
+    align-self:center;
+}
+.contact-logos-row{
+    display:flex;
+    justify-content:flex-start;
+    padding-top:74.48px;
+}
+#twitter{margin-right:32.33px}
+#facebook{margin-right:32.97px}
+.contact-icons-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    column-gap:35px;
+    row-gap:78.96px;
+    align-items:center;
+    padding-bottom:70px;
+}
+.contact-icons-row p{
+    font-size:1rem;
+    font-family:'Jost', sans-serif;
+    font-weight:400;
+    color:rgba(55, 71, 84, 1);
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+#email-img{padding-bottom:11px;}

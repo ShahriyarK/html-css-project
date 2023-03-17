@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Jost', sans-serif;
+}
+ /*--------------------------------------------------Hero Section------------------------------------------*/
+ .hero{
+    width:100%;
+    height:100vh;
+}
+.overlay{
+    width:100%;
+    height:100%;
+    background-image:url('computer.png'), url('Rectangle.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    position:relative;
+}
+.nav-logo{
+    width:151px;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:400;
+    font-size:1.125rem;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:1280px;
+    margin:auto;
+    padding-top:55px;
+    column-gap:129px;
+}
+nav ul{
+    flex:1;
+    display:flex;
+    justify-content:space-between;
+}
+.h1-hero{               /*Do I need to specify width:auto to h1 separately as well like in original?*/
+    margin-top:17.333vh;
+    margin-left:80px;
+    width:auto;
+    font-size:4.625rem;
+    font-weight:500;
+    color:white;
+    width:auto;
+}
+.hero-btn{
+    text-align:center;
+    position:absolute;
+    width:100%;
+    bottom:13vh;
+}
+.hero-btn button{
+    color:white;
+    font-size:1.25rem;
+    font-weight:400;
+    padding:11.6px 78px 11.6px 78px;
+    background-color:#CEA93A;
+    border:none;
+    letter-spacing:0.2px;
+}
+.nav-hamburger{
+    width:34px;
+    height:24.98px;
+    display:none;
+}

@@ -1,0 +1,97 @@
+  /* ---------------------------------------------------Testimonials Section CSS--------------------------------------- */
+  .testimonial{
+    margin-top:103.65px;
+    text-align:center;
+}
+.testimonial h2{
+    font-size:3rem;
+    font-weight:400;
+    padding-bottom:104.82px;
+}
+.testimonial-text{
+    font-size:1.25rem;
+    color:rgba(8, 26, 43, 0.75);
+    font-weight:300;
+    padding-bottom:50.58px;
+}
+.testimonial-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    margin-bottom: 46px;
+}
+.testimonial-col{
+    flex-basis:25%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top:1px solid rgba(221, 221, 221, 1);
+    background-color:rgba(255, 255, 255, 0.9);
+}
+.col-graphics{
+    position:relative;
+    width:72%;
+    padding:31px 0px 0px 0px;
+    text-align:center;
+}
+.col-graphics img:nth-child(1){
+    position:absolute;
+    left:0px;
+    bottom:0.5%;
+    width:15.5%;
+    object-fit:cover;
+}
+.col-graphics img:nth-child(2){
+    width:58.13052%;
+    object-fit:cover;
+}
+.col-testimonials{
+    flex:1;
+    font-weight:300;
+    font-size:1rem;
+    line-height:1.25;
+    color:rgba(0, 28, 39, 1);
+    max-width:72%;
+    padding:23px 0px 50px 0px
+}
+.col-endorser{
+    position:relative;
+    align-self:flex-end;
+    width:100%;
+    background-color:rgba(162, 184, 193, 1);
+    text-align:center;
+    font-size:1.25rem;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    color:white;
+}
+.col-endorser img{
+    width:100px;
+    height:99.47px;
+    border-radius:100%;
+    object-fit:cover;
+    position:absolute;
+    bottom:100%;
+    left:50%;
+    transform:translate(-50%,50%);
+}
+.col-endorser-cio{
+    padding-top:73.09px;
+    padding-bottom:53px;
+}
+.col-endorser-coo, .col-endorser-ceo{
+    padding-top:72.61px;
+    padding-bottom:76.47px;
+}
+
+.testimonial button{
+    font-size:1.25rem;
+    font-weight:400;
+    color:white;
+    padding:16px 46px;
+    background-color:rgba(13, 137, 202, 1);
+    border:none;
+    line-height:1.445;
+}

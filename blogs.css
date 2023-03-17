@@ -1,0 +1,63 @@
+ /* ---------------------------------------------------Blogs Section CSS--------------------------------------- */
+ .blogs{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:87px;
+}
+.blogs h2{
+    font-size: 3rem;
+    font-weight:400;
+    color:rgba(8, 26, 43, 1);
+    padding-bottom:88px;
+}
+.blogs-row{
+    display:flex;
+    flex-direction:row;
+    column-gap:40px;
+    width:88.889%;
+}
+figure{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:620px;
+    box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
+    padding-bottom:3.52%;
+}
+.fig-left-border{border-bottom: 10px solid rgba(235, 123, 55, 1);}
+.fig-right-border{border-bottom: 10px solid rgba(250, 214, 6, 1);}
+
+figure img{
+    aspect-ratio:1/1;
+    width:100%;
+}
+.fig-caption{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    color:rgba(168, 132, 39, 1);
+    font-weight:400;
+    font-size:1.25rem;
+    padding-top:3.21%;
+    padding-bottom:4.52%;
+}
+.blog-title{
+    text-align:center;
+    font-size:1.5rem;
+    max-width:81.52%;
+}
+figure a{
+    text-decoration:none;
+    font-size:1.25rem;
+    color:rgba(8, 26, 43, 1);
+    margin-top:7.59%;
+}
+.blogs button{
+    font-size:1.25rem;
+    background-color:#FFFFFF;
+    border:1px solid rgba(13, 137, 202, 1);
+    padding:16px 69px;
+    margin-top:72px;
+}

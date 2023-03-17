@@ -4,7 +4,8 @@
     box-sizing:border-box;
 }
 
-.head{
+ /*--------------------------------------------------Hero Section------------------------------------------*/
+.hero{
     width:100%;
     height:100vh;
 }
@@ -46,18 +47,17 @@ nav ul{
     display:flex;
     justify-content:space-between;
 }
-/* .header-h1{
+/* .h1-hero{
     display:flex;
     flex-direction:column;
     row-gap:245px;
 } */
-.header-h1{
+.h1-hero{
     margin-top:17.333vh;
     margin-left:80px;
     width:auto;
-
 }
-.header-h1 h1{
+.h1-hero h1{
     font-size:4.625rem;
     font-weight:500;
     font-family:'Jost', sans-serif;
@@ -65,14 +65,14 @@ nav ul{
     width:auto;
 }
 
-.btn-box{
+.hero-btn{
     text-align:center;
     position:absolute;
     width:100%;
     bottom:13vh;
     /* margin-top:27.223vh; */
 }
-.btn-box button{
+.hero-btn button{
     color:white;
     font-size:1.25rem;
     font-family:'Jost', sans-serif;
@@ -82,7 +82,7 @@ nav ul{
     border:none;
     letter-spacing:0.2px;
 }
-/* .header-h1 h1{
+/* .h1-hero h1{
     font-size:74px;
     font-weight:500;
     font-family:'Jost', sans-serif;
@@ -91,7 +91,7 @@ nav ul{
     top: 30.22%;
     left:80px;
 } */
-/* .btn-box{
+/* .hero-btn{
     width:80%;
     position:absolute;
     margin:auto;
@@ -100,7 +100,7 @@ nav ul{
     display:flex;
     justify-content:center;
 } */
-/* .btn-box button{
+/* .hero-btn button{
     color:white;
     font-size:20px;
     font-family:'Jost', sans-serif;
@@ -110,7 +110,7 @@ nav ul{
     border:none;
     letter-spacing:0.2px;
 } */
-.nav-menu{
+.nav-hamburger{
     width:34px;
     height:24.98px;
     display:none;
@@ -123,11 +123,11 @@ nav ul{
     column-gap:141px;
     margin-top:89px;
 }
-.about-left{
+.about-text{
     padding-left:80px;
     padding-top:21px;
 }
-.about-left button{
+.about-text button{
     color:white;
     font-family:'Jost', sans-serif;
     font-size:1.25rem;
@@ -136,51 +136,46 @@ nav ul{
     border:none;
     display:none;
 }
-.about-right{
+.about-image{
     width:525px;
     padding-right:80px;
     aspect-ratio:1/1;
     object-fit:cover;
     align-self:center;
 }
-.about-left h2{
+.about-text h2{
     font-size:3rem;
     font-weight:400;
     font-family: 'Jost', sans-serif;
     color:#081A2B;
 }
-.about-left p{
+.about-text p{
     font-family: 'Jost', sans-serif;
     font-weight:400;
     color:#081A2B;
+    font-size:1.5rem;
     line-height:1.445;
     padding-top:65px;
     padding-bottom:36px;
 }
-.about-left-p1{font-size:1.5rem;}
-.about-left-p2{
+
+.about-p-mobile{
     display:none;
 }
  /* --------------------------------Offerings section CSS------------------------------------- */
-.offerings{
+.offers{
     margin-top:134px;
     text-align:center;
 }
-.offerings h2{
+.offers h2{
     font-size:3rem;
     font-family: 'Jost', sans-serif;
     padding-bottom:30px;
     font-weight:400;
     color:#081A2B;
 }
-.offerings h3{
-    font-size:1.25rem;
-    font-family: 'Jost', sans-serif;
-    /* padding-bottom:30px; */
-    font-weight:600;
-    color:rgba(8, 26, 43, 1)
-}
-.offerings-p{
+
+.offers-text{
     font-size:1.25rem;
     font-family: 'Jost', sans-serif;
     padding-bottom:89px;
@@ -204,7 +199,15 @@ nav ul{
     align-items:center;
     padding-bottom:3%;
 }
-.cards-col-p{
+.cards-col h3{
+    padding:6px 0px 19px 0px;
+    font-size:1.25rem;
+    font-family: 'Jost', sans-serif;
+    /* padding-bottom:30px; */
+    font-weight:600;
+    color:rgba(8, 26, 43, 1);
+}
+.cards-col p{
     font-size:0.875rem;
     font-family:'Jost', sans-serif;
     color:rgba(8, 26, 43, 1);
@@ -214,27 +217,21 @@ nav ul{
     width:81.6667%;
     /* padding:0px 28px 41px; */
 }
-.border-1{
-    border-top: 18px solid #EB7B37;
-}
-.border-2{
-    border-top: 18px solid #FAD606;
-}
-.border-3{
-    border-top: 18px solid #C6A136;
-}
-.border-4{
-    border-top: 18px solid #A2B8C1;
-}
+.border-orange{border-top: 18px solid #EB7B37;}
+
+.border-yellow{border-top: 18px solid #FAD606;}
+
+.border-camel{border-top: 18px solid #C6A136;}
+
+.border-grey{border-top: 18px solid #A2B8C1;}
+
 .cards-col img{
     /* padding:16px 0px 0px; */
     color:black;
     width:160px;
 }
-.cards-col h3{
-    padding:6px 0px 19px 0px;
-}
-.offerings button{
+
+.offers button{
     font-size:1.25rem;
     font-family: 'Jost', sans-serif;
     font-weight:400;
@@ -244,7 +241,7 @@ nav ul{
     padding:16px 46px;
     border:none;
 }
-.mobile-p-1{
+.cards-p-mobile{
     display:none;
 }
     /* ----------------------------------------------------------Partners Section CSS---------------------------------------- */
@@ -253,7 +250,7 @@ nav ul{
     font-family: 'Jost', sans-serif;
     text-align:center;
 }
-.partners h1{
+.partners h2{
     font-size:3rem;
     font-weight:400;
 }
@@ -261,87 +258,83 @@ nav ul{
     font-size:1.25rem;
     line-height:1.445;
     padding:30px 80px 79px;
+    font-weight:400;
 }
-.partner-img-box{
+.partners-logo-row{
     width:88.889%;
     display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     margin:auto;
 }
-/* .partner-img-box img:nth-child(1){
+/* .partners-logo-row img:nth-child(1){
     aspect-ratio:1/1;
 } */
-.partner-img-box img:nth-child(2){
-    aspect-ratio:1/1;
-}
-.partner-img-box img:nth-child(3){
-    aspect-ratio:1.9/1;
-}
 .partners img{
     width:120px;
     object-fit:contain;
 }
-.partner-img-2{display:none;}
-.partner-img-1{display:block;}
+
     /* ---------------------------------------------------Testimonials Section CSS--------------------------------------- */
-.testimonials{
+.testimonial{
     margin-top:103.65px;
     font-family: 'Jost', sans-serif;
     text-align:center;
 }
-.testimonials h1{
+.testimonial h2{
     font-size:3rem;
     font-weight:400;
     padding-bottom:104.82px;
 }
-.testimon-p{
+.testimonial-text{
     font-size:1.25rem;
     color:rgba(8, 26, 43, 0.75);
     font-weight:300;
     padding-bottom:50.58px;
 }
-.testimon-row{
+.testimonial-row{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
     width:100%;
     margin-bottom: 46px;
 }
-.testimon-col{
+.testimonial-col{
     flex-basis:25%;
     display:flex;
     flex-direction:column;
     align-items:center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border:1px solid rgba(221, 221, 221, 1);
+    border-top:1px solid rgba(221, 221, 221, 1);
     background-color:rgba(255, 255, 255, 0.9);
 }
-.testimon-cr-1{
+.col-graphics{
     position:relative;
     width:72%;
     padding:31px 0px 0px 0px;
     text-align:center;
 }
-.testimon-cr-1 img{
-    object-fit:contain;
-    vertical-align:middle;
-}
 
-.quotes{
+
+.col-graphics img:nth-child(1){
     position:absolute;
     left:0px;
     bottom:0.5%;
     width:15.5%;
+    object-fit:cover;
 }
-.testimon-cr-3{
+.col-endorser{
     position:relative;
-    align-items:center;
     align-self:flex-end;
     width:100%;
     background-color:rgba(162, 184, 193, 1);
+    text-align:center;
+    font-size:1.25rem;
+    font-family:'Roboto', sans-serif;
+    font-weight:500;
+    color:white;
 }
-.testimon-cr-3 img{
+.col-endorser img{
     width:100px;
     height:99.47px;
     border-radius:100%;
@@ -351,22 +344,15 @@ nav ul{
     left:50%;
     transform:translate(-50%,50%);
 }
-.testimon-cr-3 p{
-    text-align:center;
-    font-size:1.25rem;
-    font-family:'Roboto', sans-serif;
-    font-weight:500;
-    color:white;
-}
-.testimon-pad-1{
+.col-endorser-cio{
     padding-top:73.09px;
     padding-bottom:53px;
 }
-.testimon-pad-2, .testimon-pad-3{
+.col-endorser-coo, .col-endorser-ceo{
     padding-top:72.61px;
     padding-bottom:76.47px;
 }
-.testimon-col-p{
+.col-testimonials{
     flex:1;
     font-weight:300;
     font-size:1rem;
@@ -377,7 +363,7 @@ nav ul{
     max-width:72%;
     padding:23px 0px 50px 0px
 }
-.testimonials button{
+.testimonial button{
     font-size:1.25rem;
     font-family:'Jost', sans-serif;
     font-weight:400;
@@ -387,52 +373,45 @@ nav ul{
     border:none;
     line-height:1.445;
 }
-.testimon-cr-1 img:nth-child(2){
+.col-graphics img:nth-child(2){
     width:58.13052%;
+    object-fit:cover;
 }
   /* ---------------------------------------------------Blogs Section CSS--------------------------------------- */
-.blogs-col{
+.blogs{
     display:flex;
     flex-direction:column;
     align-items:center;
     margin-top:87px;
 }
-.blogs-col h1{
+.blogs h2{
     font-size: 3rem;
     font-family:'Jost', sans-serif;
     font-weight:400;
     color:rgba(8, 26, 43, 1);
     padding-bottom:88px;
 }
-.fig-left{
+figure{
     display:flex;
     flex-direction:column;
     align-items:center;
     width:620px;
-    border-bottom: 10px solid rgba(235, 123, 55, 1);
     box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
     padding-bottom:3.52%;
 }
-.fig-right{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    width:620px;
-    border-bottom:10px solid rgba(250, 214, 6, 1);
-    box-shadow: 0px 4px 4px rgb(0,0,0,0.25);
-    padding-bottom:3.52%;
-}
+.fig-left-border{border-bottom: 10px solid rgba(235, 123, 55, 1);}
+.fig-right-border{border-bottom: 10px solid rgba(250, 214, 6, 1);}
 .blogs-row{
     display:flex;
     flex-direction:row;
     column-gap:40px;
     width:88.889%;
 }
-.fig-left img,.fig-right img{
+figure img{
     aspect-ratio:1/1;
     width:100%;
 }
-.caption-1{
+.fig-caption{
     display:flex;
     flex-direction:row;
     justify-content:space-around;
@@ -444,7 +423,7 @@ nav ul{
     padding-top:3.21%;
     padding-bottom:4.52%;
 }
-.caption-2{
+.blog-title{
     text-align:center;
     font-size:1.5rem;
     font-family:'Jost', sans-serif;
@@ -458,7 +437,7 @@ figure a{
     color:rgba(8, 26, 43, 1);
     margin-top:7.59%;
 }
-.blogs-col button{
+.blogs button{
     font-size:1.25rem;
     font-family:'Jost', sans-serif;
     background-color:#FFFFFF;
@@ -467,17 +446,17 @@ figure a{
     margin-top:72px;
 }
 /* ---------------------------------------------------Contact Section CSS--------------------------------------- */
-.contact-box{
+.contact-form{
     margin-top:106px;
     text-align:center;
 }
-.contact-box h1{
+.contact-form h2{
     font-size:3rem;
     font-family:'Jost', sans-serif;
     font-weight:400;
     padding-bottom:27px;
 }
-.contact-box-p{
+.contact-form-text{
     font-size:1.75rem;
     font-family:'Jost', sans-serif;
     line-height:1.43;
@@ -485,7 +464,7 @@ figure a{
     font-weight:400;
     padding-bottom:60px;
 }
-.contact-row{
+.contact-form-row{
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -502,7 +481,7 @@ fieldset{
     border-radius:20px;
     box-shadow:0px 13px 19px rgba(0,0,0,0.07);
 }
-fieldset h2{
+fieldset h3{
     font-size:1.25rem;
     font-family:'Jost', sans-serif;
     font-weight:600;
@@ -542,7 +521,7 @@ fieldset button{
     font-weight:400;
     border:none;
 }
-.contact-imgs-box{
+.contact-img-container{
     width:670px;
     display:flex;
     flex-direction:column;
@@ -560,7 +539,7 @@ fieldset button{
 }
 #twitter{margin-right:32.33px}
 #facebook{margin-right:32.97px}
-.contact-imgs-row{
+.contact-icons-row{
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -569,7 +548,7 @@ fieldset button{
     align-items:center;
     padding-bottom:70px;
 }
-.contact-imgs-row p{
+.contact-icons-row p{
     font-size:1rem;
     font-family:'Jost', sans-serif;
     font-weight:400;
@@ -609,17 +588,17 @@ fieldset button{
 }
 /* ---------------------------------------------------Media Queries--------------------------------------- */
 @media screen and (max-width:600px){
-    .nav-menu{
+    .nav-hamburger{
         display:block;
     }
     nav ul{
         display:none;
     }
-    .header-h1{
+    .h1-hero{
         margin-left:16px;
         margin-top:13.757vh;
     }
-    .header-h1 h1{
+    .h1-hero h1{
         font-size:36px;
     }
     nav{
@@ -628,44 +607,47 @@ fieldset button{
         column-gap:0px;
     }
     .nav-logo{width:114px;}
-    .btn-box{
+    .hero-btn{
         padding-left:16px;
         text-align:left;
         position:static;
         margin-top:85px;
     }
-    .btn-box button{
+    .hero-btn button{
         padding:16px 35px;
     }
     /* ------------About Section------------- */
-    .about-left h2{
+    .about-text h2{
         font-size:24px;
         font-weight:500;
     }
-    .about-left button{
+    .about-text button{
         display:block;
     }
     .about{
         flex-direction:column;
         align-items:center;
     }
-    .about-right{
+    .about-image{
         align-self:center;
         margin:0;
         padding:48px 16px 0px;
         width:91.56%;
         object-fit:cover;
     }
-    .about-left{
+    .about-text{
         padding-left:18px;
         padding-right:18px;
     }
-    .about-left h2{
+    .about-text h2{
         text-align:center;
     }
-    .about-left p{
+    .about-text p{
         padding-top:32px;
+        font-size:18px;
     }
+    .about-p-laptop{display:none;}
+    .about-p-mobile{display:block;}
     /* --------Offerings Section----------- */
     .cards-row{
         flex-wrap:wrap;
@@ -677,13 +659,13 @@ fieldset button{
         flex-basis:45.222%;
         align-items: space-around;
     }
-    .cards-col-p-hidden{
+    .cards-p-laptop{
         display:none
     }
-    /* .cards-col-p{
+    /* .cards-col p{
         padding:0px 16.9px 23.1px
     } */
-    .mobile-p-1{
+    .cards-p-mobile{
         display:block;
     }
     .cards-row{
@@ -692,32 +674,30 @@ fieldset button{
     .cards-col img{
         width:93.53px;
     }
-    .offerings h3{
+    .cards-col h3{
         font-size:18px;
         padding:3.38px 0px 0px 0px;
     }
-    .offerings h2{
+    .offers h2{
         padding-bottom:12px;
         font-size:24px;
         font-weight:500;
     }
-    .offerings-p{
+    .offers-text{
         font-size:18px;
         padding-bottom:50px;}
-    .about-left-p1{display:none;}
-    .about-left-p2{
-        font-size:18px;
-        display:block;}
+
     /* --------Partners Section----------- */
-    .partners h1{
+    .partners h2{
         font-size:24px;
         font-weight:500;
     }
     .partners p{
         font-size:18px;
         padding:27px 22px 47px;
+        font-weight:300;
     }
-    .partner-img-box{
+    .partners-logo-row{
         flex-wrap:wrap;
         row-gap:61px;
         justify-content:center;
@@ -728,45 +708,47 @@ fieldset button{
 
     }
     /* --------Testimonial Section----------- */
-    .testimon-row{
+    .testimonial-row{
         flex-direction:column;
         align-items:center;
         padding-left:16.96px;
         padding-right:16.96px;
         row-gap:31px;
     }
-    .testimonials h1{
+    .testimonial h2{
         font-size:24px;
         font-weight:500;
         padding-bottom:12px;
     }
-    .testimon-p{
+    .testimonial-text{
         font-size:18px;
         padding-bottom:49px;
     }
-    .testimon-col-p{
+    .col-testimonials{
         font-size:14px;
         line-height:1.42857;
     }
-    .testimon-cr-3 img{
+    .col-endorser img{
         width:89.27px;
         height:88.8px;
     }
-    .testimon-cr-1 img:nth-child(2){
-        width:52.166%;
+    .col-graphics img:nth-child(2){
+        width:41.166%;
+        object-fit:cover;
     }
 
-    .quotes{
-        width:13.9%;
+    .col-graphics img:nth-child(1){
+        width:10.9%;
         aspect-ratio:1.00535/1;
+        object-fit:cover;
     }
         /* --------Blogs Section----------- */
-    .blogs-col h1{
+    .blogs h2{
         font-size: 24px;
         font-weight:500;
         padding-bottom:44px;
     }
-    .fig-left,.fig-right{
+    figure{
         width:100%;
     }
     .blogs-row{
@@ -781,30 +763,30 @@ fieldset button{
         display:block;
         border:2px solid rgba(13, 137, 202, 1);
     }
-    .caption-1{
+    .fig-caption{
         font-size:16px;
     }
-    .caption-2{
+    .blog-title{
         font-size:16px;
     }
          /* --------Contact Section----------- */
-     .contact-box h1{
+     .contact-form h2{
         font-size:24px;
         font-weight:500;
         padding-bottom:12px;
     }
-    .contact-box-p{
+    .contact-form-text{
         font-size:18px;
         font-weight:300;
         padding-bottom:42px;
     }
     #map-img{display:none;}
-    .contact-row{
+    .contact-form-row{
         flex-direction:column;
         row-gap:87px;
     }
-    .contact-imgs-box{width:100%;}
-    .contact-imgs-row{
+    .contact-img-container{width:100%;}
+    .contact-icons-row{
         flex-wrap:wrap;
         justify-content:center;
         width:100%;
@@ -849,14 +831,14 @@ fieldset button{
     .contact-logos-row{justify-content:center;}
         /* --------Margins----------- */
     .about{margin-top:38px;}
-    .offerings{margin-top:190.26px;}
+    .offers{margin-top:190.26px;}
     .partners{margin-top:66px}
-    .testimonials{margin-top:126px;}
+    .testimonial{margin-top:126px;}
     .blogs{margin-top:49px;}
-    .contact-box{margin-top:75px;}
+    .contact-form{margin-top:75px;}
 }
 @media screen and (min-width:1441px){
-    .about-right{
+    .about-image{
         width:36.458%;
     }
     .about{
@@ -865,7 +847,7 @@ fieldset button{
  html{
     font-size:19px;
  }
- .btn-box button{
+ .hero-btn button{
     font-size:1.25rem;
  }
  .blogs-row{
@@ -883,10 +865,10 @@ fieldset button{
  fieldset{
     width:100%;
  }
- .contact-imgs-box{
+ .contact-img-container{
     width:46.527778%;
  }
- .fig-left,.fig-right{
+ figure{
     width:43.0556%;
  }
 }
@@ -901,28 +883,28 @@ fieldset button{
     html{
         font-size:12px;
     }
-    .header-h1{
+    .h1-hero{
         margin-left:50px;
     }
-    .about-right{
+    .about-image{
         width:43.75%;
         padding-right:50px;
     }
-    .about-left{
+    .about-text{
         padding-left:50px;
     }
     .about{
         column-gap:11.75%;
     }
-    .testimon-row{
+    .testimonial-row{
         flex-wrap:wrap;
     }
-    .contact-imgs-box{
+    .contact-img-container{
         width:44%;
         justify-content:space-around;
     }
     #map-img{display:none;}
-    .contact-imgs-row{
+    .contact-icons-row{
         flex-wrap:wrap;
         justify-content:center;
         width:100%;
@@ -937,24 +919,24 @@ fieldset button{
         column-gap:35.67px;
         padding-left:0px;
     }
-    .contact-row{
+    .contact-form-row{
         column-gap:28px;
     }
 }
 
 @media screen and (min-width:600px) and (max-width:768px){
 
-    .nav-menu{
+    .nav-hamburger{
         display:block;
     }
     nav ul{
         display:none;
     }
-    .header-h1{
+    .h1-hero{
         margin-left:16px;
         margin-top:13.757vh;
     }
-    .header-h1 h1{
+    .h1-hero h1{
         font-size:36px;
     }
     nav{
@@ -963,44 +945,46 @@ fieldset button{
         column-gap:0px;
     }
     .nav-logo{width:114px;}
-    .btn-box{
+    .hero-btn{
         padding-left:16px;
         text-align:left;
         position:static;
         margin-top:85px;
     }
-    .btn-box button{
+    .hero-btn button{
         padding:16px 35px;
     }
     /* ------------About Section------------- */
-    .about-left h2{
+    .about-text h2{
         font-size:24px;
         font-weight:500;
     }
-    .about-left button{
+    .about-text button{
         display:block;
     }
     .about{
         flex-direction:column;
         align-items:center;
     }
-    .about-right{
+    .about-image{
         align-self:center;
         margin:0;
         padding:48px 16px 0px;
         width:60%;   /*changed*/
         object-fit:cover;
     }
-    .about-left{
+    .about-text{
         padding-left:18px;
         padding-right:18px;
     }
-    .about-left h2{
+    .about-text h2{
         text-align:center;
     }
-    .about-left p{
+    .about-text p{
         padding-top:32px;
     }
+    .about-p-laptop{display:none;}
+    .about-p-mobile{display:block;}
      /* ------------Offerings Section------------- */
     .cards-row{
         flex-wrap:wrap;
@@ -1012,19 +996,23 @@ fieldset button{
         flex-basis:45.222%;
         align-items: space-around;
     }
-    .cards-col-p-hidden{
+    .cards-p-laptop{
         display:none
     }
+    .cards-p-mobile{
+        display:block;
+    }
         /* --------Partners Section----------- */
-        .partners h1{
+        .partners h2{
             font-size:24px;
             font-weight:500;
         }
         .partners p{
             font-size:18px;
             padding:27px 22px 47px;
+            font-weight:300;
         }
-        .partner-img-box{
+        .partners-logo-row{
             flex-wrap:wrap;
             row-gap:61px;
             justify-content:space-between;
@@ -1034,7 +1022,7 @@ fieldset button{
 
         }
             /* --------Testimonial Section----------- */
-    .testimon-row{
+    .testimonial-row{
         flex-direction:column;
         align-items:center;
         padding-left:16.96px;
@@ -1044,38 +1032,40 @@ fieldset button{
         margin-left:auto;  /*changed*/
         margin-right:auto;  /*changed*/
     }
-    .testimonials h1{
+    .testimonial h2{
         font-size:24px;
         font-weight:500;
         padding-bottom:12px;
     }
-    .testimon-p{
+    .testimonial-text{
         font-size:18px;
         padding-bottom:49px;
     }
-    .testimon-col-p{
+    .col-testimonials{
         font-size:14px;
         line-height:1.42857;
     }
-    .testimon-cr-3 img{
+    .col-endorser img{
         width:89.27px;
         height:88.8px;
     }
-    .testimon-cr-1 img:nth-child(2){
-        width:52.166%;
+    .col-graphics img:nth-child(2){
+        width:39.166%;
+        object-fit:cover;
     }
 
-    .quotes{
-        width:13.9%;
+    .col-graphics img:nth-child(1){
+        width:9.9%;
         aspect-ratio:1.00535/1;
+        object-fit:cover;
     }
         /* --------Blogs Section----------- */
-        .blogs-col h1{
+        .blogs h2{
             font-size: 24px;
             font-weight:500;
             padding-bottom:44px;
         }
-        .fig-left,.fig-right{
+        figure{
             width:73%;
         }
         .blogs-row{
@@ -1091,30 +1081,30 @@ fieldset button{
             display:block;
             border:2px solid rgba(13, 137, 202, 1);
         }
-        .caption-1{
+        .fig-caption{
             font-size:16px;
         }
-        .caption-2{
+        .blog-title{
             font-size:16px;
         }
              /* --------Contact Section----------- */
-         .contact-box h1{
+         .contact-form h2{
             font-size:24px;
             font-weight:500;
             padding-bottom:12px;
         }
-        .contact-box-p{
+        .contact-form-text{
             font-size:18px;
             font-weight:300;
             padding-bottom:42px;
         }
         #map-img{display:none;}
-        .contact-row{
+        .contact-form-row{
             flex-direction:column;
             row-gap:87px;
         }
-        .contact-imgs-box{width:100%;}
-        .contact-imgs-row{
+        .contact-img-container{width:100%;}
+        .contact-icons-row{
             flex-wrap:wrap;
             justify-content:center;
             width:100%;
@@ -1156,17 +1146,17 @@ fieldset button{
         .contact-logos-row{justify-content:center;}
 }
 @media screen and (min-width:769px) and (max-width:992px){
-    .nav-menu{
+    .nav-hamburger{
         display:block;
     }
     nav ul{
         display:none;
     }
-    .header-h1{
+    .h1-hero{
         margin-left:16px;
         margin-top:13.757vh;
     }
-    .header-h1 h1{
+    .h1-hero h1{
         font-size:36px;
     }
     nav{
@@ -1175,28 +1165,32 @@ fieldset button{
         column-gap:0px;
     }
     .nav-logo{width:114px;}
-    .btn-box{
+    .hero-btn{
         padding-left:16px;
         text-align:left;
         position:static;
         margin-top:85px;
     }
-    .btn-box button{
+    .hero-btn button{
         padding:16px 35px;
     }
-    .contact-row{
+    .contact-form-row{
         column-gap:12px;
     }
-    .testimon-row{
+    .testimonial-row{
         flex-direction:row;
         flex-wrap:wrap;
         width:100%;
         row-gap:30px;
     }
-    .testimon-cr-1 img:nth-child(2){
-        width:52.166%;
+    .col-graphics img:nth-child(2){
+        width:38.166%;
     }
-    .testimon-col{
+    .col-graphics img:nth-child(1){
+        width:10%;
+        aspect-ratio:1.00535/1;
+    }
+    .testimonial-col{
         flex-basis:40%;
     }
     .blogs-row{
@@ -1206,14 +1200,14 @@ fieldset button{
         margin:auto;
         align-items:center;
     }
-    .testimon-row div:nth-child(1){
-        align-self:stretch;
+    .testimonial-row div:nth-child(1){
+        align-self:center;
     }
-    .fig-left,.fig-right{
+    figure{
         width:70%;
     }
     #map-img{display:none;}
-    .contact-imgs-row{
+    .contact-icons-row{
         flex-wrap:wrap;
         justify-content:center;
         width:100%;
@@ -1228,17 +1222,17 @@ fieldset button{
         column-gap:35.67px;
         padding-left:0px;
     }
-    .contact-row{
+    .contact-form-row{
         column-gap:28px;
     }
-    .fig-left,.fig-right{
+    figure{
         width:73%;
     }
-    .about-right{
+    .about-image{
         width:43.75%;
         padding-right:50px;
     }
-    .about-left{
+    .about-text{
         padding-left:50px;
     }
     .about{
@@ -1250,7 +1244,7 @@ fieldset button{
         display:block;
         border:2px solid rgba(13, 137, 202, 1);
     }
-    .partners h1{
+    .partners h2{
         font-size:24px;
         font-weight:500;
     }
@@ -1258,7 +1252,7 @@ fieldset button{
         font-size:18px;
         padding:27px 22px 47px;
     }
-    .partner-img-box{
+    .partners-logo-row{
         flex-wrap:wrap;
         row-gap:61px;
         justify-content:space-between;
@@ -1267,7 +1261,7 @@ fieldset button{
         width:70px;
 
     }
-    .about-left-p1{font-size:1.1rem;}
+    .about-text p{font-size:1.1rem;}
     .cards-row{
         flex-wrap:wrap;
         row-gap:43px;
@@ -1278,14 +1272,17 @@ fieldset button{
         flex-basis:45.222%;
         align-items: space-around;
     }
-    .cards-col-p-hidden{
+    .cards-p-laptop{
         display:none
+    }
+    .cards-p-mobile{
+        display:block;
     }
     fieldset{
         padding:32px 25px;
         width:100%;
     }
-    .contact-imgs-box{
+    .contact-img-container{
         width:40%;
         justify-content:space-around;
     }
