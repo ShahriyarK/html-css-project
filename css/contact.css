@@ -5,11 +5,13 @@
 }
 .contact-form h2{
     font-size:3rem;
+    font-family:'Jost', sans-serif;
     font-weight:400;
     padding-bottom:27px;
 }
 .contact-form-text{
     font-size:1.75rem;
+    font-family:'Jost', sans-serif;
     line-height:1.43;
     color:rgba(55, 71, 84, 1);
     font-weight:400;
@@ -34,20 +36,19 @@ fieldset{
 }
 fieldset h3{
     font-size:1.25rem;
+    font-family:'Jost', sans-serif;
     font-weight:600;
     color:rgba(37, 43, 66, 1);
 }
-fieldset input, textarea{
-    width:100%;
-}
+
 fieldset input{
     padding:19px 20px;
     background-color:rgba(232, 232, 232, 1);
     border:1px solid rgba(232, 232, 232, 1);
+    width:100%;
 }
 fieldset input::placeholder{
     font-size:0.9375rem;
-    font-family:'Jost', sans-serif;
     font-weight:400;
     color:rgba(24, 23, 29, 1);
 }
@@ -58,6 +59,7 @@ fieldset textarea{
     font-size:0.9375rem;
     font-weight:400;
     background-color:rgba(232, 232, 232, 1);
+    width:100%;
 }
 fieldset button{
     width:145px;
@@ -84,8 +86,11 @@ fieldset button{
     justify-content:flex-start;
     padding-top:74.48px;
 }
+
 #twitter{margin-right:32.33px}
+
 #facebook{margin-right:32.97px}
+
 .contact-icons-row{
     display:flex;
     flex-direction:row;
@@ -97,13 +102,30 @@ fieldset button{
 }
 .contact-icons-row p{
     font-size:1rem;
-    font-family:'Jost', sans-serif;
     font-weight:400;
     color:rgba(55, 71, 84, 1);
 }
-.contact{
+.contact-icon{
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    /* justify-content:space-between; */
 }
+
 #email-img{padding-bottom:11px;}
+
+/* ---------------------------------------------------Footer Section CSS--------------------------------------- */
+.footer-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color:rgba(0, 28, 39, 0.75);
+    column-gap:9.53%;
+    margin-top:102px;
+    border:none;
+}
+.footer-row p{
+    font-size:1.25rem;
+    font-weight:400;
+    color:white;
+    padding:16px 0px 15px 0px;
+}

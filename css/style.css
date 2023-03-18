@@ -487,14 +487,12 @@ fieldset h3{
     font-weight:600;
     color:rgba(37, 43, 66, 1);
 }
-fieldset input, textarea{
-    width:100%;
 
-}
 fieldset input{
     padding:19px 20px;
     background-color:rgba(232, 232, 232, 1);
     border:1px solid rgba(232, 232, 232, 1);
+    width:100%;
 }
 fieldset input::placeholder{
     font-size:0.9375rem;
@@ -510,6 +508,7 @@ fieldset textarea{
     font-weight:400;
     font-family:'Jost', sans-serif;
     background-color:rgba(232, 232, 232, 1);
+    width:100%;
 }
 fieldset button{
     width:145px;
@@ -560,7 +559,7 @@ fieldset button{
 #phone-img{
     padding-bottom:20.96px;
 } */
-.contact{
+.contact-icon{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -817,7 +816,7 @@ fieldset button{
         width:100%;
         padding:52px 16px;
     }
-    .contact div{
+    .contact-icon div{
         margin-bottom:20.96px;
     }
             /* --------Footer Section----------- */
@@ -845,7 +844,7 @@ fieldset button{
         column-gap:9.792%;
     }
  html{
-    font-size:19px;
+    font-size:18px;
  }
  .hero-btn button{
     font-size:1.25rem;
@@ -874,7 +873,7 @@ fieldset button{
 }
 @media screen and (min-width:1200px){
     .location p{padding-top:20.17px;}
-    .contact p{padding-top:20.17px;}
+    .contact-icon p{padding-top:20.17px;}
 
 }
 
@@ -1135,7 +1134,7 @@ fieldset button{
             width:100%;
             padding:52px 16px;
         }
-        .contact div{
+        .contact-icon div{
             margin-bottom:20.96px;
         }
                 /* --------Footer Section----------- */
