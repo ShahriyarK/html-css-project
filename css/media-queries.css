@@ -105,8 +105,6 @@
     .partners-logo-row{
         flex-wrap:wrap;
         row-gap:61px;
-        /* justify-content:center;
-        column-gap:10px; */
     }
 
     .partners img{width:70px;}
@@ -194,7 +192,6 @@
 
     .contact-icons-row{
         flex-wrap:wrap;
-        /* justify-content:center; */
         width:100%;
         column-gap:24px;
     }
@@ -211,10 +208,7 @@
         width:25.33px;
         height:31.67px;
     }
-    /* .location p{
-        align-self:center;
-        padding-top:0px;
-    } */
+
     form{padding:0px 18px;}
 
     fieldset{
@@ -271,14 +265,6 @@
         font-size:20px;
         padding:6px 0px 19px 0px;
     }
-    /* .offers h2{
-        padding-bottom:30px;
-        /* font-size:48px; */
-        /* font-weight:500;
-    } */
-    /* .offers-text{
-        padding-bottom:89px;
-    } */
 
 }
 

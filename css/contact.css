@@ -108,7 +108,6 @@ fieldset button{
 .contact-icon{
     display:flex;
     flex-direction:column;
-    /* justify-content:space-between; */
 }
 
 #email-img{padding-bottom:11px;}

@@ -46,7 +46,7 @@ nav ul{
     display:flex;
     justify-content:space-between;
 }
-.h1-hero{               /*Do I need to specify width:auto to h1 separately as well like in original?*/
+.h1-hero{         
     margin-top:17.333vh;
     margin-left:80px;
     width:auto;
